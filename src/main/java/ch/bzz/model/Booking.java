@@ -1,8 +1,6 @@
-package ch.bzz;
+package ch.bzz.model;
 
 import jakarta.persistence.*;
-import ch.bzz.Account;
-import ch.bzz.Project;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

@@ -1,4 +1,4 @@
-package ch.bzz;
+package ch.bzz.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
