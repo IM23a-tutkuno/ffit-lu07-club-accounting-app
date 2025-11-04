@@ -7,6 +7,7 @@ import ch.bzz.generated.model.LoginProject200Response;
 import ch.bzz.generated.model.LoginRequest;
 import ch.bzz.generated.model.UpdateAccountsRequest;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
@@ -18,6 +19,7 @@ public class AccountApiController implements AccountApi {
     public ResponseEntity<List<Account>> getAccounts() {
         return null;
     }
+
 
     @Override
     public ResponseEntity<Void> updateAccounts(UpdateAccountsRequest updateAccountsRequest) {
